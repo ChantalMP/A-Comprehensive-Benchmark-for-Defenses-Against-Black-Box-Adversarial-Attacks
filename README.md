@@ -1,6 +1,6 @@
 # A Comprehensive Benchmark for Defenses Against Black-Box Adversarial Attacks
 
-This repository contains the code for the study carried out in my bachelor thesis: LINK
+This repository contains the code for the study carried out in my bachelor thesis: https://github.com/ChantalMP/A-Comprehensive-Benchmark-for-Defenses-Against-Black-Box-Adversarial-Attacks/blob/master/Bachelorthesis.pdf
 
 The study explores several relevant defense approaches against adversarial attacks and evaluates all of them in a unified
 environment using an iterative decision-based attack, an improved version of Boundary

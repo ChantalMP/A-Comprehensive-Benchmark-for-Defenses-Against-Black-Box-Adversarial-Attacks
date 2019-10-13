@@ -1,0 +1,10 @@
+dataset: mnist
+attack: bapp
+max_queries: 100000
+distance: MSE
+run_time_defense:
+detector:
+classifier_name: modelA_ens
+reference_name: mnist_bapp_100000_MSE_EnsAdvTraining_100_newattack
+model_type: Keras
+refset_name: ensTraining

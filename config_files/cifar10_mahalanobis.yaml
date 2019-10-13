@@ -1,0 +1,10 @@
+dataset: cifar10
+attack: bapp
+max_queries: 100000
+distance: MSE
+run_time_defense:
+detector: [mahalanobis, 0.5]
+classifier_name: mahalanobis_cifar10
+reference_name: cifar10_bapp_100000_MSE_mahalanobis_100
+model_type: PyTorch
+refset_name: mahalanobis

@@ -1,0 +1,15 @@
+cifar-10-batches-py/*
+.idea/*
+*.pt
+cifar10_classifier/data/*
+cifar10_classifier/models/*
+attack_results/*
+/attack/attack_testdata/
+/classifiers/cifar10_classifier/data/
+/debug/
+/defenses/defensegan/datasets/
+/defenses/defensegan/checkpoints/
+/defenses/rce_kDensity/data/
+/defenses/rce_kDensity/models_cifar10/
+/defenses/rce_kDensity/models_mnist/
+/evaluation_results/

@@ -1,0 +1,10 @@
+dataset: mnist
+attack: bapp
+max_queries: 100000
+distance: MSE
+run_time_defense: defgan
+detector:
+classifier_name: defgan_model
+reference_name: mnist_bapp_100000_MSE_defgan_not_random_new
+model_type: DefGan
+refset_name: defgan

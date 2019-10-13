@@ -1,0 +1,25 @@
+orig_mnist       : [7 2 1 0 4 9 5 6 3 8]
+
+defgan nodef     : [9 3 7 6 9 3 6 0 5 5]
+defgan def       : [9 3 7 6 9 3 4 0 5 5]
+
+enstrain nodef   : [9 3 7 6 9 3 6 0 5 5]
+enstrain def     : [9 3 7 6 9 3 8 0 5 5]
+
+mahalanobis nodef: [3 3 7 6 9 5 9 0 5 5]
+mahalanobis def  : [3 3 7 6 9 5 9 0 5 5]
+
+ce               : [9 3 7 5 9 4 8 0 5 5]
+rce              : [9 4 7 9 9 8 8 0 5 5]
+rce + K-density  : [9 4 7 9 9 8 8 0 5 5]
+
+
+classes_cifar10 = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck', 'adversarial')
+orig_cifar       : [2 1 3 5 9 7 4 6 0 8]
+
+mahalanobis nodef: [4 9 9 3 1 6 6 4 4 4]
+mahalanobis def  : [4 9 9 3 1 4 3 4 4 4]
+
+ce               : [6 9 7 3 6 6 3 2 8 9]
+rce              : [6 9 2 3 6 3 8 2 2 4]
+rce + K-density  : [0 6 2 3 6 3 8 2 2 0]

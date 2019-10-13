@@ -1,0 +1,9 @@
+dataset: mnist
+attack: bapp
+max_queries: 100
+distance: MSE
+run_time_defense:
+detector:
+classifier_name: resnet44_2epochs_mnist.pt
+reference_name: mnist_bapp_100_MSE_None
+model_type: PyTorch

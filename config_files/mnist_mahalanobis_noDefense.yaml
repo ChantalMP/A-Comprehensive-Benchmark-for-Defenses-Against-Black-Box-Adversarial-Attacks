@@ -1,0 +1,10 @@
+dataset: mnist
+attack: bapp
+max_queries: 100000
+distance: MSE
+run_time_defense:
+detector:
+classifier_name: state_epoch11_mahalanobis_mnist.pt
+reference_name: mnist_bapp_100000_MSE_mahalanobis_05_noDefense_100
+model_type: PyTorch
+refset_name: mahalanobis

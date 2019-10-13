@@ -1,0 +1,10 @@
+dataset: mnist
+attack: bapp
+max_queries: 100000
+distance: MSE
+run_time_defense:
+detector: [kdensity, -105]
+classifier_name: rce
+reference_name: mnist_bapp_100000_MSE_RCE_KDensity_100
+model_type: RCEClassifier
+refset_name: rce

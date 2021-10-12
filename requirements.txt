@@ -8,7 +8,7 @@ randomgen
 torchvision
 scipy==1.0.1
 requests==2.20.0
-opencv-python==3.4.0.12
+opencv-python==3.4.7.28
 scikit-image==0.13.1
 tqdm==4.28.1
 torch

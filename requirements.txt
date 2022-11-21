@@ -13,7 +13,7 @@ scikit-image==0.13.1
 tqdm==4.28.1
 torch
 torchvision
-tensorflow-gpu==1.9
+tensorflow-gpu==2.9.3
 mypy
 mem_top
 pympler
